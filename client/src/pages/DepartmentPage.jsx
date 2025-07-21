@@ -218,7 +218,7 @@ function DepartmentPage() {
           <div className="empty-state">
             <div className="empty-state-icon">🏢</div>
             <h3>No Departments Found</h3>
-            <p>Start by adding your first department using the form above.</p>
+            <p>Start by adding your first department using the form above !</p>
           </div>
         ) : (
           <div>
