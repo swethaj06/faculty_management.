@@ -98,7 +98,7 @@ function FacultyPage() {
       setError('');
       await axios.delete(`http://localhost:5000/api/faculty/${id}`);
       setFaculty(faculty.filter(f => f._id !== id));
-      setSuccess('✅ Faculty member deleted successfully!');
+      setSuccess('✅ Faculty member deleted successfully!!');
       if (editingId === id) {
         resetForm();
       }
