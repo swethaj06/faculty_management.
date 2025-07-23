@@ -1,0 +1,29 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--spacing-unit) * 4;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: var(--spacing-unit);
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  max-width: 600px;
+  margin-bottom: calc(var(--spacing-unit) * 4);
+}
+
+.home-cta-container {
+  display: flex;
+  gap: calc(var(--spacing-unit) * 2);
+  margin-top: calc(var(--spacing-unit) * 2);
+}

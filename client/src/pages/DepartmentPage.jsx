@@ -108,34 +108,6 @@ function DepartmentPage() {
 
   return (
     <div className="container">
-      {/* Back Button */}
-      <div style={{ marginBottom: '20px' }}>
-        <Link to="/" style={{ 
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          padding: '8px 16px',
-          backgroundColor: '#f8fafc',
-          color: '#64748b',
-          textDecoration: 'none',
-          borderRadius: '6px',
-          border: '1px solid #e2e8f0',
-          fontSize: '14px',
-          fontWeight: '500',
-          transition: 'all 0.2s ease'
-        }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = '#f1f5f9';
-          e.target.style.borderColor = '#cbd5e1';
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = '#f8fafc';
-          e.target.style.borderColor = '#e2e8f0';
-        }}>
-          ← Back to Home
-        </Link>
-      </div>
-      
       <h1 className="page-title">🏢 Department Management</h1>
 
       <div className="form-container slide-in">
